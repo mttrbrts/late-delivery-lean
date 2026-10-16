@@ -2,6 +2,7 @@
   "name": "late-delivery-lean",
   "version": "0.1.0",
   "private": true,
+  "license": "Apache-2.0",
   "description": "Verified Lean 4 specification, runtime and differential tests for the Accord Project Late Delivery and Penalty template",
   "type": "module",
   "engines": { "node": ">=22.6" },

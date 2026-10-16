@@ -109,3 +109,7 @@ To make this a first-class option in the template engine, you'd still need:
   before accepting a contract, rather than simulating the logic.
 * **Mathlib** for richer statements, such as the exact pro-rata formula over rationals,
   at the cost of build time.
+
+## Licence
+
+Apache License 2.0. See [LICENSE](LICENSE).
