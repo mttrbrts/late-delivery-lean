@@ -1,0 +1,13 @@
+{
+  "name": "late-delivery-lean",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Verified Lean 4 specification, runtime and differential tests for the Accord Project Late Delivery and Penalty template",
+  "type": "module",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "build": "cd lean && lake build",
+    "test": "node --experimental-strip-types --no-warnings ts/harness.ts 5000 42",
+    "sample": "node --experimental-strip-types --no-warnings ts/leanRuntime.ts examples/envelope.json"
+  }
+}

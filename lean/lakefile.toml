@@ -1,0 +1,10 @@
+name = "late-delivery"
+version = "0.1.0"
+defaultTargets = ["latedelivery"]
+
+[[lean_lib]]
+name = "LateDelivery"
+
+[[lean_exe]]
+name = "latedelivery"
+root = "Main"
